@@ -1,0 +1,4 @@
+[submodule "frontend"]
+	path = geppetto
+	url = git@github.com:openworm/org.geppetto.frontend.git
+    branch = light_geppetto
