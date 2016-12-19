@@ -26,7 +26,7 @@ app.ws('/org.geppetto.frontend/GeppettoServlet', function(ws, req) {
 		if (msgParsed['type'] == 'geppetto_version'){
 			//Where do we get the geppetto version from?
 			console.log("Geppetto Version...")
-			ws.send(JSON.stringify({"requestID":msgParsed['requestID'],"type":"geppetto_version","data":"{\"geppetto_version\":\"0.3.1\"}"}));
+			ws.send(JSON.stringify({"requestID":msgParsed['requestID'],"type":"geppetto_version","data":"{\"geppetto_version\":\"0.3.3\"}"}));
 		}
 	
 	});
